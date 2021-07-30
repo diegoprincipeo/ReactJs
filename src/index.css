@@ -24,6 +24,20 @@ textarea {
   font-size: 1.6rem;
 }
 
+.button{
+  display: inline-block;
+  background:var(--yellow);
+  color:#191919;
+  padding:.8rem 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.button:hover{
+  background:var(--black);
+  color:#fff;
+}
 /*Encabezado*/
 
 .grid-container {
@@ -123,21 +137,7 @@ footer {
   padding:.5rem;
   background:rgba(0,0,0,.05);
 }
-.products .box-container .box .button{
-  display: inline-block;
-  background:var(--yellow);
-  color:#191919;
-  padding:.8rem 1rem;
-  font-size: 1.7rem;
-  text-align: center;
-  cursor: pointer;
-  border: none;
-}
 
-.products .box-container .box .button:hover{
-  background:var(--black);
-  color:#fff;
-}
 
 /*Productos*/
 
@@ -197,16 +197,6 @@ footer {
 .total > button {
   flex: 1;
 }
-.total .button{
-  display: inline-block;
-  background:var(--yellow);
-  color:#191919;
-  padding:.8rem 1rem;
-  font-size: 1.7rem;
-  text-align: center;
-  cursor: pointer;
-  border: none;
-}
 
 /*Carrito-Logo*/
 
@@ -231,3 +221,33 @@ input {
 }
 
 /*Pedido*/
+
+/*Zoom*/
+
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img {
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
+}
+.ReactModal__Content--after-open{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+/*Zoom*/
