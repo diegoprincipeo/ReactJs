@@ -1,13 +1,233 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+:root{
+  --yellow:#ffda00;
+  --black:#191919;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+/*Encabezado*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+a:hover {
+  color: #203040;
+}
+header {
+  grid-area: header;
+  background-color:var(--yellow);
+  color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+header a {
+  color: var(--black);
+  text-decoration: none;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  background-color: #ffffff;
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  flex: 3 60rem;
+}
+.sidebar {
+  flex: 1 20rem;
+}
+
+/*Encabezado*/
+
+/*Productos*/
+
+.products .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+.products .box-container .box{
+  flex:1 1 30rem;
+  text-align: center;
+  padding:2rem;
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  overflow: hidden;
+  position: relative;
+}
+.products .box-container .box img{
+  height: 20rem;
+}
+.products .box-container .box p{
+  color:var(--black);
+  font-size: 2rem;
+}
+.products .box-container .box .quantity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+.products .box-container .box .quantity span{
+  padding:0 .7rem;
+  font-size: 1.7rem;
+}
+.products .box-container .box .quantity input{
+  border:.1rem solid rgba(0,0,0,.3);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color:var(--black);
+  padding:.5rem;
+  background:rgba(0,0,0,.05);
+}
+.products .box-container .box .button{
+  display: inline-block;
+  background:var(--yellow);
+  color:#191919;
+  padding:.8rem 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.products .box-container .box .button:hover{
+  background:var(--black);
+  color:#fff;
+}
+
+/*Productos*/
+
+/*Filtros*/
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem rgba(0,0,0,.3) solid;
+}
+.filter div{
+  flex: 1;
+}
+
+/*Filtros*/
+
+/*Carrito-Logo*/
+
+.cart{
+  display: flex;
+  padding: 1.3rem;
+
+}
+.cart-header {
+  border-bottom: 0.1rem rgba(0,0,0,.3) solid;
+}
+.cart-items{
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: auto;
+}
+.cart-items img{
+  width: 7rem;
+}
+.cart-items li{
+  display: flex;
+}
+.cart-items li div{
+  padding: .5rem;
+}
+.cart-items li div:last-child{
+  flex: 1;
+}
+.rigth{
+  text-align: right;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div,
+.total > button {
+  flex: 1;
+}
+.total .button{
+  display: inline-block;
+  background:var(--yellow);
+  color:#191919;
+  padding:.8rem 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+/*Carrito-Logo*/
+
+/*Pedido*/
+
+form{
+  width: 100%;
+}
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+input {
+  padding: 1rem;
+  border: .1rem #c0c0c0 solid;
+}
+
+/*Pedido*/

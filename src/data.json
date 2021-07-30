@@ -1,0 +1,244 @@
+{
+    "products": [
+        {
+            "_id": "Aceite-Primor",
+            "imagen": "/Imagenes/productos/Aceite-Primor.jpg",
+            "producto": "Aceite Primor",
+            "descripcion": "Aceite Vegetal Botella de 1Lt.",
+            "categorias": "Abarrotes",
+            "familia": "Aceite",
+            "precio": 11.99,
+            "stock": 10
+        },
+        {
+            "_id": "Aceite-Sao",
+            "imagen": "/imagenes/productos/Aceite-Sao.jpg",
+            "producto": "Aceite Sao",
+            "descripcion": "Aceite Vegetal Botella de 1Lt.",
+            "categorias": "Abarrotes",
+            "familia": "Aceite",
+            "precio": 6.69,
+            "stock": 12
+        },
+        {
+            "_id": "Arroz-Costeno",
+            "imagen": "/imagenes/productos/Arroz-Costeño.jpg",
+            "producto": "Arroz Costeño",
+            "descripcion": "Arroz Extra Bolsa 750Gr.",
+            "categorias": "Abarrotes",
+            "familia": "Arroz",
+            "precio": 3.70,
+            "stock": 15
+        },
+        {
+            "_id": "Carne-Bistec",
+            "imagen": "/imagenes/productos/Carne-Bistec.jpg",
+            "producto": "Bistec de tapa",
+            "descripcion": "Bistec fresco de tapa x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Carne de Res",
+            "precio": 20.00,
+            "stock": 5
+        },
+        {
+            "_id": "Carne-Costillar",
+            "imagen": "/imagenes/productos/Carne-Costillar.jpg",
+            "producto": "Costillar de Cerdo",
+            "descripcion": "Costillar fresco x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Carne de Cerdo",
+            "precio": 42.00,
+            "stock": 2
+        },
+        {
+            "_id": "Carne-Hamburguesa",
+            "imagen": "/imagenes/productos/Carne-Hamburguesa.jpg",
+            "producto": "Hamburguesa de Carne",
+            "descripcion": "Hamburguesa casera x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Carne de Res",
+            "precio": 18.00,
+            "stock": 8
+        },
+        {
+            "_id": "Carne-Panceta",
+            "imagen": "/imagenes/productos/Carne-Panceta.jpg",
+            "producto": "Panceta de Cerdo",
+            "descripcion": "Panceta x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Carne de Cerdo",
+            "precio": 22.00,
+            "stock": 4
+        },
+        {
+            "_id": "Cereal-CapnCrunch",
+            "imagen": "/imagenes/productos/Cereal-CapnCrunch.jpg",
+            "producto": "Cereal Cap´nCrunch",
+            "descripcion": "Caja de 398Gr.",
+            "categorias": "Abarrotes",
+            "familia": "Cereales",
+            "precio": 25.90,
+            "stock": 5
+        },
+        {
+            "_id": "Cereal-Zucaritas",
+            "imagen": "/imagenes/productos/Cereal-Zucaritas.jpg",
+            "producto": "Cereal Zucaritas",
+            "descripcion": "Caja de 510Gr.",
+            "categorias": "Abarrotes",
+            "familia": "Cereales",
+            "precio": 21.90,
+            "stock": 10
+        },
+        {
+            "_id": "Desinfectante-Poett1",
+            "imagen": "/imagenes/productos/Desinfectante-Poett.png",
+            "producto": "Desinfectante Poett",
+            "descripcion": "Frescura Lavanda botella de 1.8Lt.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Desinfectante",
+            "precio": 7.50,
+            "stock": 6
+        },
+        {
+            "_id": "Desinfectante-Poett2",
+            "imagen": "/imagenes/productos/Desinfectante-Poett2.jpg",
+            "producto": "Desinfectante Poett",
+            "descripcion": "Flores de Primavera botella de 1.8Lt.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Desinfectante",
+            "precio": 7.50,
+            "stock": 6
+        },
+        {
+            "_id": "Fruta-Fresas",
+            "imagen": "/imagenes/productos/Fruta-Fresas.jpg",
+            "producto": "Fresas",
+            "descripcion": "Frescas x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Frutas",
+            "precio": 6.40,
+            "stock": 8
+        },
+        {
+            "_id": "Fruta-PaltaFuerte",
+            "imagen": "/imagenes/productos/Fruta-PaltaFuerte.jpg",
+            "producto": "Palta Fuerte",
+            "descripcion": "x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Frutas",
+            "precio": 8.90,
+            "stock": 12
+        },
+        {
+            "_id": "Fruta-PaltaHass",
+            "imagen": "/imagenes/productos/Fruta-PaltaHass.jpg",
+            "producto": "Palta Hass",
+            "descripcion": "x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Frutas",
+            "precio": 8.90,
+            "stock": 12
+        },
+        {
+            "_id": "Lavavajilla-Ayudin",
+            "imagen": "/imagenes/productos/Lavavajilla-Ayudin.jpg",
+            "producto": "Ayudin",
+            "descripcion": "Lavavajilla Botella de 1.2Lt.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Lavavajilla",
+            "precio": 15.90,
+            "stock": 8
+        },
+        {
+            "_id": "Mascarilla-KN95",
+            "imagen": "/imagenes/productos/Mascarilla-KN95.jpg",
+            "producto": "Mascarilla KN95",
+            "descripcion": "Caja x 100Und.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Mascarilla",
+            "precio": 20.50,
+            "stock": 10
+        },
+        {
+            "_id": "PH-Elite",
+            "imagen": "/imagenes/productos/PH-Elite.png",
+            "producto": "Elite",
+            "descripcion": "Papel Higienico x 4Und.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Papel Higienico",
+            "precio": 2.50,
+            "stock": 15
+        },
+        {
+            "_id": "PH-Scott",
+            "imagen": "/imagenes/productos/PH-Scott.png",
+            "producto": "Scott",
+            "descripcion": "Papel Higienico x 4Und.",
+            "categorias": "Limpieza y Aseo",
+            "familia": "Papel Higienico",
+            "precio": 2.30,
+            "stock": 15
+        },
+        {
+            "_id": "Pollo-Milanesa",
+            "imagen": "/imagenes/productos/Pollo-Milanesa.jpg",
+            "producto": "Pollo de Milanesa",
+            "descripcion": "x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Pollo",
+            "precio": 25.00,
+            "stock": 12
+       },
+        {
+            "_id": "Pollo-Pechuga",
+            "imagen": "/imagenes/productos/Pollo-Pechuga.jpg",
+            "producto": "Pechuga de Pollo",
+            "descripcion": "x Kg.",
+            "categorias": "Carnes y Lacteos",
+            "familia": "Pollo",
+            "precio": 15.00,
+            "stock": 24
+        },
+        {
+            "_id": "Salsas-MayonesaAlacena",
+            "imagen": "/imagenes/productos/Salsas-MayonesaAlacena.jpg",
+            "producto": "Mayonesa Alacena",
+            "descripcion": "Sachet de 190Gr.",
+            "categorias": "Abarrotes",
+            "familia": "Salsas",
+            "precio": 5.90,
+            "stock": 13
+        },
+        {
+            "_id": "Verdura-Culantro",
+            "imagen": "/imagenes/productos/Verdura-Culantro.jpg",
+            "producto": "Culantro",
+            "descripcion": "x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Verduras",
+            "precio": 1.50,
+            "stock": 14
+        },
+        {
+            "_id": "Verdura-Perejil",
+            "imagen": "/imagenes/productos/Verdura-Perejil.jpg",
+            "producto": "Perejil",
+            "descripcion": "x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Verduras",
+            "precio": 1.20,
+            "stock": 14
+        },
+        {
+            "_id": "Verdura-Zanahoria",
+            "imagen": "/imagenes/productos/Verdura-Zanahoria.jpg",
+            "producto": "Zanahoria",
+            "descripcion": "x Kg.",
+            "categorias": "Frutas y Verduras",
+            "familia": "Verduras",
+            "precio": 1.20,
+            "stock": 15
+        }
+    ]
+  }
